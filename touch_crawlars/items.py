@@ -20,3 +20,8 @@ class MemberItem(Item):
 	name_cn=Field()
 	homepage=Field()
 	twitter=Field()
+
+class ACT_MEMBER_ITEM(Item):
+	id=Field()
+	name=Field()
+	local=Field()
