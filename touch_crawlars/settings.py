@@ -14,6 +14,9 @@ BOT_NAME = 'touch_crawlars'
 SPIDER_MODULES = ['touch_crawlars.spiders']
 NEWSPIDER_MODULE = 'touch_crawlars.spiders'
 
+#if you excute script, recreate this file.
+FEED_URI = 'items.csv'
+FEED_FORMAT = 'csv'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'touch_crawlars (+http://www.yourdomain.com)'
