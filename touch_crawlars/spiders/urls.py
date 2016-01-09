@@ -1,5 +1,6 @@
 prefix = "http://watch.peoplepower21.org"
 member_index = prefix + "/New/search.php"
+member_report = prefix +"/New/cm_info.php?member_seq=%s"
 
 popong_prefix = "http://ko.pokr.kr"
 popong_person = popong_prefix + "/person/"

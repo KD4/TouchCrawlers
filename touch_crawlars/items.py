@@ -25,3 +25,8 @@ class ACT_MEMBER_ITEM(Item):
 	id=Field()
 	name=Field()
 	local=Field()
+
+class ACT_MEMBER_REPORT(Item):
+	id=Field()
+	attendance_rate=Field()
+	proposal=Field()
