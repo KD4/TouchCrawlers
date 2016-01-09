@@ -1,6 +1,5 @@
 # coding: utf-8
 
-private_birth = 'id("content")//b[contains(text(), "출생")]/text()'
-private_military = 'id("content")//table[tr/td/b/text()="병역"]/tr[2]/td'
-special_table = 'id("content")/table'
-attend_table = '//table'
+member_report_for_attendance_rate = 'id("content")/table[2]/tr[td[2]/table[1]/tr[6]/td[1]/a]/td[2]/table[1]/tr[4]/td[1]/a/text()'
+member_report_for_proposal = 'id("content")/table[2]/tr[td[2]/table[1]/tr[6]/td[1]/a]/td[2]/table[1]/tr[6]/td[1]/a/text()'
+
