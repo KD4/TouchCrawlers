@@ -30,3 +30,12 @@ class ACT_MEMBER_REPORT(Item):
 	id=Field()
 	attendance_rate=Field()
 	proposal=Field()
+
+class ACT_BILL_ITEM(Item):
+	id=Field()
+	link_id=Field()
+
+class ACT_BILL_VOTE(Item):
+	bill_id = Field()
+	member_id = Field()
+	vote_code = Field()
